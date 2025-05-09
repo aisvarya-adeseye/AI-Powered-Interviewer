@@ -53,5 +53,5 @@ User Prompt
 
 Based on this configuration, generate:
 A complete System Prompt as the instruction to the LLaMA to set up the interview but not to ask questions.
-JASON FORMAT. Dont give any response outside of jason
+JSON FORMAT. Dont give any response outside of json
 
