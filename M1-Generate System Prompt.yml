@@ -53,5 +53,9 @@ User Prompt
 
 Based on this configuration, generate:
 A complete System Prompt as the instruction to the LLaMA to set up the interview but not to ask questions.
-JSON FORMAT. Dont give any response outside of json
-
+JSON FORMAT. 
+Output must consist of *only* the valid JSON object.
+– No introductory text, labels, summaries, or formatting before or after the JSON.
+– The output must start and end with curly braces `{}` and include nothing else.
+– Any extra text outside the JSON will cause a system failure.
+– Follow this strictly.
