@@ -41,12 +41,6 @@ Below is the structured interview configuration (replace with actual values each
 
 [INTERVIEW CONFIGURATION END]
 
-Output must consist of *only* the valid JSON object.
-– No introductory text, labels, summaries, or formatting before or after the JSON.
-– The output must start and end with curly braces `{}` and include nothing else.
-– Any extra text outside the JSON will cause a system failure.
-– Follow this strictly.
-
 ----------------
 User Prompt
 ----------------
