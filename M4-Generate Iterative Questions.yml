@@ -1,0 +1,36 @@
+Your task is to respond briefly and appropriately to the participant’s previous answer (ATTACHED). Use a polite, semi-formal, and inclusive tone. Keep your reply under 10 words. Avoid repeating the participant's response. Instead, provide a natural follow-up or a brief take-home message that aligns with the tone and intent of their answer. If relevant, acknowledge key sentiments or ideas (e.g., agreement, enthusiasm, concern). Responses should sound human and conversational, not robotic or question. Aim for warmth, subtle affirmation, or gentle curiosity when appropriate. Responses like “That’s a great point” or “Interesting perspective!” are preferred over restating content.
+
+Then, transition naturally to the next part of the interview using a short, smooth sentence that is not a question and does not mention the topic or key terms. Use phrasing like “We’ll move on to the next part,” “Let’s continue with the next point,” or “Moving ahead now.” Keep the tone consistent with your response.
+
+Next, generate one new open-ended interview question specifically related to the high-priority area: Assessment of Current Level of LLM Awareness and Understanding.  
+
+Requirements for the question:
+Your task is to generate a single, open-ended interview question that is suitable for an expert-level respondent. The question should:
+– Encourage depth, critical reflection, or unique insight.
+– Be phrased in a natural, conversational, and clear tone.
+– Avoid repeating or rephrasing any previous questions already asked. This includes not asking about the same concept using different words or structure.
+– Be contextually relevant to the participant’s previous answer (ATTACHED), but push the conversation forward with a new angle or direction.
+– Avoid yes/no formats or closed-ended wording. Additionally, justify why the generated question is appropriate for this stage and participant, using no more than 25 words.
+
+Output Format (must match exactly):
+{
+"responseMessage": "xx",
+"transitionMessage": "yy",
+"nextQuestion": "zz",
+"justification": "ww"
+}
+
+Instructions:
+o	Do NOT translate or modify the JSON keys.
+o	Translate only the values ("xx", "yy", "zz") into the selected language.
+o	The selected language is explicitly provided below. Use only that language for the values.
+o	Supported output languages: English, Finnish, Swedish.
+o	Output only the valid JSON string. No extra text, labels, or formatting.
+Language: ENGLISH
+
+Output must consist of *only* the valid JSON object.
+– No introductory text, labels, summaries, or formatting before or after the JSON.
+– The output must start and end with curly braces `{}` and include nothing else.
+– Any extra text outside the JSON will cause a system failure.
+– Follow this strictly.
+

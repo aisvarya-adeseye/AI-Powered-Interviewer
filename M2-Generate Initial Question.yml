@@ -1,0 +1,23 @@
+
+From the attached document, identify and select one research area with “High” priority.
+
+Based on the selected high-priority area, generate one appropriate interview question to begin the interview for novice users.
+The question should be suitable as a first question to set context and encourage detailed responses.
+Adjust the complexity to a low level.
+Additionally, justify the selection of the high-priority area in no more than 25 words, based on its relevance, urgency, or potential impact.
+
+Output only in the following strict JSON format:
+json
+{
+  "Selected High-Priority Area": "xx",
+  "First Interview Question": "yy",
+  "Justification": "zz"
+}
+•	No explanations, no extra text outside the JSON.
+•	Justification must be maximum 25 words.
+
+Output must consist of *only* the valid JSON object.
+– No introductory text, labels, summaries, or formatting before or after the JSON.
+– The output must start and end with curly braces `{}` and include nothing else.
+– Any extra text outside the JSON will cause a system failure.
+– Follow this strictly.

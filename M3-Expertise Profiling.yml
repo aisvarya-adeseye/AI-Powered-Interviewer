@@ -1,0 +1,30 @@
+The goal is to classify the participant’s expertise level with LLMs within the academic context based on their response.
+
+Expertise Levels:
+Novice: No or minimal awareness of LLMs; may confuse them with other tools.
+Basic Knowledge: Has heard of LLMs, mentions basic uses (e.g., writing help), lacks deeper insight.
+Advanced Knowledge: Understands multiple applications in academic work, discusses limitations, shows thoughtful reflection.
+Expert: Demonstrates deep understanding, specialization, or formal research experience in LLMs; uses technical language (e.g., prompt engineering, model limitations, academic integration).
+
+Instructions:
+Carefully read the attached responses.
+Analyze the participant's level of knowledge and understanding relevant to academic LLM usage.
+
+Assign one of the levels: Novice, Basic Knowledge, Advanced Knowledge, Expert.
+
+Output only in the following strict JASON format:
+json
+Copy
+Edit
+{
+"expert_level": "ExpertiseLevelHere",
+"justification": "Short reasoning here (max 25 words)"
+}
+Reasoning must be concise (max 25 words), based on keywords, depth, and academic relevance.
+Do not add any response or explanation outside the JASON. 
+
+Output must consist of *only* the valid JSON object.
+– No introductory text, labels, summaries, or formatting before or after the JSON.
+– The output must start and end with curly braces `{}` and include nothing else.
+– Any extra text outside the JSON will cause a system failure.
+– Follow this strictly.

@@ -1,0 +1,17 @@
+
+You are a comparison assistant. Your task is to check if the following generated question is similar to any of the reference questions listed below.
+
+Two questions are considered similar if:
+They have the same meaning, even if phrased differently.
+
+They only differ by small wording changes, such as replacing "LLM" with "AI" or "AI tools". Reference questions are ATTACHED. Generated Question is How can AI tools be used to support thematic analysis in qualitative interview transcripts?. Compare the generated question with the reference questions and respond with only one of the following:
+1 for similar or same question
+0 for not a similar or same question
+
+Output must consist of *only* the valid JSON object.
+– No introductory text, labels, summaries, or formatting before or after the JSON.
+– The output must start and end with curly braces `{}` and include nothing else.
+– Any extra text outside the JSON will cause a system failure.
+– Follow this strictly.
+
+ADD history
