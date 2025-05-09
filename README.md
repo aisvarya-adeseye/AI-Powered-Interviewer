@@ -28,8 +28,7 @@ It uses a structured, modular pipeline for dynamic question generation, response
 - **M5-Validate Question Uniqueness.yml**  
   Ensures newly generated questions are not redundant with any prior questions.
 
-### Research Paper
-- **Dynamic_interviewer.pdf**  
+### Research Paper 
   Full paper published at the ICAI'25 - The 27th Int'l Conf on Artificial Intelligence, describing system design, evaluation results, and research contributions.
 
 ## System Features
@@ -51,4 +50,4 @@ Aisvarya Adeseye, Jouni Isoaho, Seppo Virtanen, Mohammad Tahir. Modular AI-Power
 
 ## Contact
 For questions or collaborations:  
-(mailto:aisvarya.a.adeseye@utu.fi)  
+(aisvarya.a.adeseye@utu.fi)  
