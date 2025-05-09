@@ -14,4 +14,4 @@ Output must consist of *only* the valid JSON object.
 – Any extra text outside the JSON will cause a system failure.
 – Follow this strictly.
 
-ADD history
+ADD Chat History
