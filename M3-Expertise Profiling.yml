@@ -12,16 +12,12 @@ Analyze the participant's level of knowledge and understanding relevant to acade
 
 Assign one of the levels: Novice, Basic Knowledge, Advanced Knowledge, Expert.
 
-Output only in the following strict JASON format:
-json
-Copy
-Edit
+Output only in the following strict JSON format:
 {
 "expert_level": "ExpertiseLevelHere",
 "justification": "Short reasoning here (max 25 words)"
 }
 Reasoning must be concise (max 25 words), based on keywords, depth, and academic relevance.
-Do not add any response or explanation outside the JASON. 
 
 Output must consist of *only* the valid JSON object.
 – No introductory text, labels, summaries, or formatting before or after the JSON.
